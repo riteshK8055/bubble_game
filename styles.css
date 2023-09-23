@@ -2,4 +2,94 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gilroy";
+}
+body{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100w;
+    height: 100vh;
+    background-color: rgb(148, 238, 148);
+}
+
+#panel{
+
+    overflow: hidden;
+    border-radius: 10px;
+    width: 80vw;
+    height: 80vh;
+    background-color: hsl(120, 77%, 88%);
+}
+
+#ptop{
+
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(55, 108, 55) ;
+
+}
+
+ .elem{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+
+.elem h2{
+
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+
+    color: rgb(18, 82, 18);
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height:calc(100% - 100px);
+}
+
+.bubble{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(72 , 104 ,72);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+bubble:hover{
+
+    background-color: rgb(50,75,50);
 }
